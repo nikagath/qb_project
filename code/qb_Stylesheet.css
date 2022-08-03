@@ -1,0 +1,178 @@
+body{
+    background-color: #0bab94;
+    max-width: 600px;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 30%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.categories {
+    width: 70%;
+    margin: auto;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.catImages {
+    border: 3px solid #ecd591;
+    border-radius: 5px;
+    width: 30%;
+    height: 50px;
+}
+
+.catBars{
+    border: 3px solid #ecd591;
+    border-radius: 5px;
+    width: 60%;
+    height: 49px;
+    text-align: right;
+    font-size: large;
+    margin-left: 5px;
+}
+
+.catBars2{
+    border: 3px solid #ecd591;
+    border-radius: 5px;
+    width: 30%;
+    height: 49px;
+    text-align: right;
+    font-size: large;
+    margin-left: 5px;
+}
+
+.catBars3{
+    border: 3px solid #ecd591;
+    border-radius: 5px;
+    width: 20%;
+    height: 49px;
+    text-align: right;
+    font-size: large;
+    margin-left: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#ready {
+    padding-left: 5px;
+    background-color: white;
+    background-size: cover;
+    background-position: center center; 
+    border-radius: 5px; 
+}
+
+.lastScreen2 {
+    width: 30%;
+    margin-left: 2px;
+    background: #96cde8;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 0px #3f51b5;
+    display: inline-block;
+    transition: all .2s;              
+    top: 0;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.lastScreen2c {
+    width: 30%;
+    margin-left: 2px;
+    background: #e7a270;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 0px #e27322;
+    display: inline-block;
+    transition: all .2s;              
+    top: 0;
+    cursor: pointer;
+    margin-left: 6px;
+}
+  
+.lastScreen2:active {
+    top: 3px;
+    box-shadow: 0 2px 0px #ecd591;
+    transition: all .2s;
+}
+
+.lastScreen2c:active {
+    top: 3px;
+    box-shadow: 0 2px 0px #ecd591;
+    transition: all .2s;
+}
+
+.lastScreen3 {
+    width: 20%;
+    margin-left: 2px;
+    background: #96cde8;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 0px #3f51b5;
+    display: inline-block;
+    transition: all .2s;              
+    top: 0;
+    cursor: pointer;
+    margin-left: 3px;
+}
+.lastScreen3c {
+    width: 20%;
+    margin-left: 2px;
+    background: #e7a270;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 0px #e27322;
+    display: inline-block;
+    transition: all .2s;              
+    top: 0;
+    cursor: pointer;
+    margin-left: 3px;
+}
+  
+.lastScreen3:active {
+    top: 3px;
+    box-shadow: 0 2px 0px #ecd591;
+    transition: all .2s;
+}
+
+.lastScreen3c:active {
+    top: 3px;
+    box-shadow: 0 2px 0px #ecd591;
+    transition: all .2s;
+}
+
+#save {
+    background-color: black;
+    background-size: cover;
+    background-position: center center; 
+    border-radius: 5px;
+}
+
+#reset {
+    background-color: #ec1c24;
+    background-size: cover;
+    background-position: center center; 
+    border-radius: 5px;
+}

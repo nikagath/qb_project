@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QuizBall</title>
+        <link rel="stylesheet" href="qb_Stylesheet.css">
+        <script type="module" src="editing.js"></script>
+        <script>
+            function reply_click(clicked_id) {
+                var btn = document.getElementById(clicked_id);
+                if (btn.className==="lastScreen2"){
+                    btn.className="lastScreen2c"
+                } else if (btn.className==="lastScreen2c"){
+                    btn.className="lastScreen2"
+                }else if (btn.className==="lastScreen3"){
+                    btn.className="lastScreen3c"
+                } else if (btn.className==="lastScreen3c"){
+                    btn.className="lastScreen3"
+                }
+            }
+        </script>
+    </head>
+   
+    <body>
+        <main>
+            <img src="../images/logo.jpg" id="logo" alt="My_logo">
+            <br>
+            <div id="results-box"></div>
+        </main>
+
+        <footer>
+            <button id="reset" type="button" onclick="location.href='/'"><img src="../images/reset.png" width="120px" heigth="100px"></button>
+        </footer>
+
+    </body>
+
+</html>
